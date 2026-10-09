@@ -223,8 +223,7 @@ Last-checkpoint names are `supervised_last.pt`, `mean_teacher_last.pt` and `ae_l
 
 The latest supplied five evaluators were used, including their full-AOI metrics/confusion maps and ABS-compatible AE evaluation. Older evaluator variants were not restored. CNN architectures, sampling, losses, EMA and numerical defaults remain based on the supplied scripts. Changes cover configurable paths/date counts, consistent run selection, diagnostics, provenance checks, overwrite/frozen-selection guards, GeoTIFF block profiles and runtime compatibility. Ground-truth generation is a larger rewrite: explicit vector labels/AOI, dynamic CRS and reference checks replace case-specific inputs. It needs visual checking on each real dataset and uses full-array memory.
 
-See `VERIFICATION.md` for the checks actually performed and their limits. The illustrative figures below are historical thesis outputs, not results of the synthetic software checks. No numerical thesis scores are reproduced by those checks. Real-data end-to-end validation, realistic resource sizing and GPU execution remain necessary before using this package for reported scientific results. These scripts are command-line entry points, not a supported importable API. A license is not included; select the appropriate terms before public distribution.
-
+See `VERIFICATION.md` for the checks actually performed and their limits. The illustrative figures below are historical thesis outputs, not results of the synthetic software checks. No numerical thesis scores are reproduced by those checks. Real-data end-to-end validation, realistic resource sizing and GPU execution remain necessary before using this package for reported scientific results. These scripts are command-line entry points, not a supported importable API.
 
 ## Illustrative outputs from the thesis
 
